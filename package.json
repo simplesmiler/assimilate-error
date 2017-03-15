@@ -1,0 +1,30 @@
+{
+  "name": "assimilate-error",
+  "description": "Assimilate error that originated from another execution context",
+  "version": "0.1.0",
+  "author": "Denis Karabaza <denis.karabaza@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/simplesmiler/assimilate-error/issues"
+  },
+  "homepage": "https://github.com/simplesmiler/assimilate-error",
+  "keywords": [
+    "assimilate",
+    "error",
+    "execution",
+    "context",
+    "vm",
+    "errio",
+    "serialize",
+    "deserialize"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/simplesmiler/assimilate-error"
+  },
+  "scripts": {
+    "lint": "eslint index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
