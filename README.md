@@ -20,7 +20,7 @@ var serialized1 = errio.toObject(err1, { stack: true });
 var err2 = errio.fromObject(serialized1);
 err2; // outputs `Error { ... }` in the Chrome console
 
-err2 = assimilateError(err2);
+err2 = assimilateError(err2, true);
 err2; // outputs `Error: Demo` with the stack in Chrome console
 ```
 
